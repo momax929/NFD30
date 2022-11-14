@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="nfd30">
+      <UniqueIdentifier>{5afa5cf1-d8b6-4f82-b358-424f3fdf3067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="price">
+      <UniqueIdentifier>{3b641767-2a72-4e42-8d51-15711de71f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{900c5a85-1235-4dbc-9fd5-4af2b27a9632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{3a24b9a8-53e1-4095-948e-19ecf8c79681}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>nfd30</Filter>
+    </ClInclude>
+    <ClInclude Include="NFD30.h">
+      <Filter>nfd30</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>nfd30</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>nfd30</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\log.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NFD30.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="NFD30.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NFD30.cpp">
+      <Filter>nfd30</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\log.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
